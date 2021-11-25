@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
+import numpy as np
 import random
 import time
 import copy
-import numpy as np
-random.seed(time.time()) #To get a "really" random generator 
 
 class Cell (object) :
    
@@ -16,6 +15,7 @@ class Cell (object) :
         self.clone = clone
         self.mutation_rate = mutation_rate
         self.ID = Cell.next_ID
+        self.get_cure = False
         self.treatment_duration = 0
         Cell.next_ID += 1
         
@@ -27,10 +27,11 @@ class Cell (object) :
             self.state = "CANCEROUS"
             
         self.clone = new_clone_id
-        self.fitness = random.uniform(0, 1)
-        self.mutation_rate = random.uniform(0, 0.01)
+        self.fitness = round(random.uniform(0,2), 3)
+        self.mutation_rate = round(random.uniform(0, 0.02), 4)
         
     def treatment (self, alpha):
+        self.get_cure == True
         self.fitness = self.fitness * alpha
         self.treatment_duration += 1
 

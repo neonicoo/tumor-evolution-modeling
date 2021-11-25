@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 
+import numpy as np
 import random
 import time
 import copy
-import numpy as np
 
 import cell
-
-random.seed(time.time()) #To get a "really" random generator 
-
 
 class Tissue ( object ) :
     
@@ -16,7 +13,8 @@ class Tissue ( object ) :
         self.generation_time = generation_time
         self.omega = omega
         self.alpha = alpha
-        self.detection = False
+        self.cancer_detection = False
+        self.current_cure = None
         self.pop = []
         self.clones_pop = copy.deepcopy(clones_init)    
     
@@ -44,35 +42,62 @@ class Tissue ( object ) :
         nb_cells = len(self.pop)
         nb_normal_cells = self.clones_pop[0]["freq"]
         nb_cancer_cells = nb_cells - nb_normal_cells
+        nb_clones = 0
+        
+        average_fitness = sum([cell.fitness for cell in self.pop])/(nb_cells)
+        
+        for key in list(self.clones_pop.keys()):
+            if (key != 0 and self.clones_pop[key]["freq"] > 0):
+                nb_clones +=1
         
         if (nb_cancer_cells >= self.omega * nb_cells):
-            self.detection = True
+            self.cancer_detection = True
+        else:
+            self.cancer_detection = False
+ 
+        return (nb_cells, nb_normal_cells, nb_cancer_cells, nb_clones, average_fitness)
             
-        return (nb_cells, nb_normal_cells, nb_cancer_cells)
+    def targeted_treatment(self, n=5):
+        
+        if (n>len(self.clones_pop)) :
+            n = len(self.clones_pop) -1
+        
+        # if the cancer has been detected and no cure in progress
+        if (self.cancer_detection == True and self.current_cure == None):
             
-    def get_treatment(self):
-        if (self.detection == True): #if the cancer has been detected
+            # find the biggest colonie of mutant clone to treat in prority
+            self.current_cure = [clones[0] for clones in sorted({k:self.clones_pop[k] for k in self.clones_pop if k!=0}.items(), 
+                                   key=lambda item: item[1]["freq"], 
+                                   reverse=True)[:n]]
+            
             for cell in self.pop:
-                if (cell.state == "CANCEROUS") and (cell.treatment_duration < self.generation_time):
+                if (cell.clone in self.current_cure):
+                    cell.treatment_duration = 0
                     cell.treatment(self.alpha)
+                    
+        # if there is already a cure on specific clone in progress, just continue it until the end of generation time                
+        if(self.current_cure != None):
+            remaining_cells_to_treat = 0
+            for cell in self.pop:
+                if(cell.clone in self.current_cure and cell.treatment_duration < self.generation_time):
+                    cell.treatment(self.alpha)
+                    remaining_cells_to_treat += 1
+            
+            if (remaining_cells_to_treat == 0):
+                self.current_cure = None
+                for cell in self.pop:
+                    cell.get_cure == False
+                    cell.treatment_duration = 0
+                        
     
     def reproduce (self):
-        minimum = 1
-        candidat = self.pop[0]
-        proba_selection = random.uniform(0, 1)
-        
-        for c in self.pop :
-            #selection of an individual with a proba proportional to the fitness
-            #i.e. minimize the différence between the proba and the fitness
-            if (abs( c.fitness - proba_selection) < minimum):
-                minimum = abs( c.fitness - proba_selection)
-                candidat = c
-        
+    
+        candidat = random.choices(self.pop, weights=[c.fitness for c in self.pop], k=1)[0]
         new_cell = cell.Cell(candidat.state, candidat.clone, candidat.fitness, candidat.mutation_rate)
         
         
-        #Proba of mutation : give birth to another clone type
-        proba_mutation = random.uniform(0, 1)
+        #Proba of mutation : give birth to a new clone type
+        proba_mutation = random.uniform(0, 1) 
         if proba_mutation < new_cell.mutation_rate :
             new_clone_id=len(self.clones_pop.keys())
             new_cell.mutate(new_clone_id)
@@ -81,10 +106,15 @@ class Tissue ( object ) :
                                         "freq" : 1})
         else:
             self.clones_pop[new_cell.clone]["freq"] += 1
+        
         self.pop.append(new_cell)
     
-    def get_apoptose(self):
-        cell = random.choice(self.pop)
+    def get_apoptose(self, weighted = True):
+        if (weighted):
+            cell = random.choices(self.pop, weights=[1/(c.fitness+0.01) for c in self.pop], k=1)[0]
+        else:
+            cell = random.choice(self.pop)
+            
         self.pop.remove(cell)
         self.clones_pop[cell.clone]["freq"] -= 1 
 

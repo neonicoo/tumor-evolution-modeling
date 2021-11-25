@@ -11,7 +11,16 @@ import tissue
 
 default_clone_init = {0: {"fitness" : 1,"mu": 0.001, "freq" : 0}}
 
-def run (nb_runs=10000, N=1000, prop_cancer=0.1, omega=0.2, alpha=0.5, T=20, treatment = True, nb_treatments = 5, verbose = True, weighted_apoptosis = True, clones_init=default_clone_init):
+def run (nb_runs=10000, 
+    N=1000, prop_cancer=0.1, 
+    omega=0.2, alpha=0.5, 
+    T=20, 
+    treatment = True, 
+    nb_treatments = 5, 
+    verbose = True,
+    weighted_reproduction = True,
+    weighted_apoptosis = True, 
+    clones_init=default_clone_init):
     
     my_tissue = tissue.Tissue(omega, alpha, T, clones_init=clones_init)
     my_tissue.initial_population(N, prop_cancer)  #initial population of 1000 individus
@@ -29,7 +38,7 @@ def run (nb_runs=10000, N=1000, prop_cancer=0.1, omega=0.2, alpha=0.5, T=20, tre
     
     for i in range (nb_runs):
         random.seed(time.time())
-        my_tissue.reproduce()
+        my_tissue.reproduce(weighted_reproduction)
         my_tissue.get_apoptose(weighted_apoptosis)
         
         if (treatment) :

@@ -26,6 +26,8 @@ simulation1 = simulation.run(nb_runs=N_runs,
     prop_cancer= 0.1, 
     treatment=False, 
     verbose=True, 
+    weighted_reproduction = True,
+    weighted_apoptosis = True,
     clones_init=clones_init)
 
 
@@ -38,6 +40,7 @@ simulation2 = simulation.run(nb_runs=N_runs,
     treatment=True, 
     nb_treatments=2, 
     verbose=True, 
+    weighted_reproduction = True,
     weighted_apoptosis = True, 
     clones_init=clones_init)
 

@@ -90,9 +90,13 @@ class Tissue ( object ) :
                     cell.treatment_duration = 0
                         
     
-    def reproduce (self):
+    def reproduce (self, weighted=True):
     
-        candidat = random.choices(self.pop, weights=[c.fitness for c in self.pop], k=1)[0]
+        if (weighted):
+            candidat = random.choices(self.pop, weights=[c.fitness for c in self.pop], k=1)[0]
+        else:
+            candidat = random.choice(self.pop)
+
         new_cell = cell.Cell(candidat.state, candidat.clone, candidat.fitness, candidat.mutation_rate)
         
         

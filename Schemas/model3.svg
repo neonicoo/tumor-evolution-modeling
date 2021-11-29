@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="420mm"
+   height="297mm"
+   viewBox="0 0 420 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="model3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.41011891"
+     inkscape:cx="609.5793"
+     inkscape:cy="597.38771"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="614.01279"
+       y="679.65938"
+       width="49.90248"
+       height="48.32851"
+       id="rect36006" />
+    <rect
+       x="634.24753"
+       y="658.26951"
+       width="364.96624"
+       height="90.683775"
+       id="rect27422" />
+    <linearGradient
+       id="linearGradient22228"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="0"
+         id="stop22226" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient21888"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1;"
+         offset="0"
+         id="stop21886" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient21828"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop21826" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient21714"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#c87137;stop-opacity:1;"
+         offset="0"
+         id="stop21712" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient21636"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#c87137;stop-opacity:1;"
+         offset="0"
+         id="stop21634" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5632"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5630" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5346"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#999999;stop-opacity:1;"
+         offset="0"
+         id="stop5344" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5125"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#800000;stop-opacity:1;"
+         offset="0"
+         id="stop5123" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1124"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="0"
+         id="stop1122" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1082"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop1080" />
+    </linearGradient>
+    <rect
+       x="455.82965"
+       y="36.37218"
+       width="183.97205"
+       height="78.701325"
+       id="rect17528" />
+    <rect
+       x="645.1176"
+       y="716.60081"
+       width="370.11727"
+       height="161.00238"
+       id="rect43575" />
+    <linearGradient
+       id="linearGradient40190"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop40188" />
+    </linearGradient>
+    <rect
+       x="320.60382"
+       y="47.790421"
+       width="118.86074"
+       height="46.95723"
+       id="rect25344" />
+    <rect
+       x="278.22556"
+       y="572.20062"
+       width="233.6637"
+       height="70.049248"
+       id="rect11755" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5242" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path5248" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5230" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5497"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5495" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5227" />
+    </marker>
+    <linearGradient
+       id="linearGradient1038"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1036" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient988"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop986" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5242-5" />
+    </marker>
+    <rect
+       x="645.11761"
+       y="716.60083"
+       width="370.11728"
+       height="161.00238"
+       id="rect43575-1" />
+    <rect
+       x="645.11761"
+       y="716.60083"
+       width="370.11728"
+       height="161.00238"
+       id="rect43575-1-4" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5346"
+       id="linearGradient5396"
+       gradientUnits="userSpaceOnUse"
+       x1="125.04579"
+       y1="194.49707"
+       x2="140.04579"
+       y2="194.49707"
+       gradientTransform="translate(-69.264014,-145.63692)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5346"
+       id="linearGradient13312"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(74.120616,-146.36365)"
+       x1="125.04579"
+       y1="194.49707"
+       x2="140.04579"
+       y2="194.49707" />
+    <rect
+       x="614.01282"
+       y="679.65936"
+       width="49.902481"
+       height="48.32851"
+       id="rect36006-1" />
+    <rect
+       x="614.01282"
+       y="679.65936"
+       width="49.902481"
+       height="48.32851"
+       id="rect36006-9" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#f9f9f9;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-5"
+       cx="71.978271"
+       cy="112.50574"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g5167"
+       transform="matrix(1.5117912,0,0,1.5117912,-111.4303,-191.87507)"
+       style="stroke-width:0.661467;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffffff;fill-opacity:1"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:0.661467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         d="m 117.16351,197.18272 8.31034,8.31034"
+         id="path4767" />
+      <path
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:0.661467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         d="m 125.47385,197.18272 -8.31034,8.31034"
+         id="path4769" />
+    </g>
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke:#0044aa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20362"
+       cx="61.165443"
+       cy="84.996109"
+       r="50"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke:#0044aa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20362-6"
+       cx="210.56891"
+       cy="84.996109"
+       r="50"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#808080;stroke:#656565;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 116.90458,84.996105 h 35.51928"
+       id="path5225"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 71.733422,121.68239 c 0,25.77293 0,25.77293 0,25.77293"
+       id="path7504"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-12.303464,-1.965394)"
+       id="text11753"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect11755);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="278.22461"
+         y="593.43555"
+         id="tspan43781"><tspan
+           style="font-weight:bold;fill:#ff0000"
+           id="tspan43779">Apoptosis</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#00aa44;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="M 83.376609,49.995351 C 84.835727,30.192924 81.89195,25.217227 98.446119,26.975999"
+       id="path18801"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-15.435638,5.184865)"
+       id="text25342"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25344);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="320.60352"
+         y="69.025391"
+         id="tspan43785"><tspan
+           style="font-weight:bold;fill:#00aa44"
+           id="tspan43783">Division</tspan></tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke:#0044aa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20362-6-6"
+       cx="356.66733"
+       cy="84.996109"
+       r="50"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#808080;stroke:#656565;stroke-width:2.00000006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.00000017,6.00000017;stroke-opacity:1;marker-end:url(#Arrow1Send-3);stroke-dashoffset:0"
+       d="m 264.06123,84.996105 h 35.51928"
+       id="path5225-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-160.54593,-179.14921)"
+       id="text43573"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43575);fill:#0044aa;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="645.11719"
+         y="733.11722"
+         id="tspan43789"><tspan
+           style="font-weight:bold"
+           id="tspan43787">Simulation #1
+</tspan></tspan><tspan
+         x="645.11719"
+         y="756.45059"
+         id="tspan43793"><tspan
+           style="font-weight:bold"
+           id="tspan43791">Total cells : 10
+</tspan></tspan><tspan
+         x="645.11719"
+         y="779.78397"
+         id="tspan43797"><tspan
+           style="font-weight:bold"
+           id="tspan43795">Tumor cells : 3</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-11.142461,-179.14921)"
+       id="text43573-9"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43575-1);fill:#0044aa;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="645.11719"
+         y="733.11722"
+         id="tspan43801"><tspan
+           style="font-weight:bold"
+           id="tspan43799">Simulation #2
+</tspan></tspan><tspan
+         x="645.11719"
+         y="756.45059"
+         id="tspan43805"><tspan
+           style="font-weight:bold"
+           id="tspan43803">Total cells : 10
+</tspan></tspan><tspan
+         x="645.11719"
+         y="779.78397"
+         id="tspan43809"><tspan
+           style="font-weight:bold"
+           id="tspan43807">Tumor cells : 4</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,134.95596,-179.14921)"
+       id="text43573-9-7"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43575-1-4);fill:#0044aa;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="645.11719"
+         y="733.11722"
+         id="tspan43813"><tspan
+           style="font-weight:bold"
+           id="tspan43811">Simulation #100
+</tspan></tspan><tspan
+         x="645.11719"
+         y="756.45059"
+         id="tspan43817"><tspan
+           style="font-weight:bold"
+           id="tspan43815">Total cells : 10
+</tspan></tspan><tspan
+         x="645.11719"
+         y="779.78397"
+         id="tspan43821"><tspan
+           style="font-weight:bold"
+           id="tspan43819">Tumor cells : 9</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#c87137;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 118.17811,27.161432 c 14.94363,1.263122 9.89753,-3.459097 11.32176,14.122014"
+       id="path1439"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.0971668,8.2058691)"
+       id="text17526"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect17528);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="455.83008"
+         y="57.607422"
+         id="tspan43825"><tspan
+           style="font-weight:bold;fill:#c87137"
+           id="tspan43823">Mutation</tspan></tspan></text>
+    <circle
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3"
+       cx="35.477314"
+       cy="58.865398"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-3"
+       cx="82.752052"
+       cy="59.321915"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#f9f9f9;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-56"
+       cx="40.464321"
+       cy="116.93781"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-2"
+       cx="25.108561"
+       cy="88.283028"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:url(#linearGradient5396);fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-1"
+       cx="63.281773"
+       cy="48.860153"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-70"
+       cx="94.195641"
+       cy="101.02039"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-3"
+       cx="53.12727"
+       cy="95.235519"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-60"
+       cx="55.428989"
+       cy="70.561623"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-62"
+       cx="79.728409"
+       cy="84.697746"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.745098"
+       id="path20498-6-3-6-3-3-1-8"
+       cx="129.22894"
+       cy="51.568535"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-3-7"
+       cx="109.0994"
+       cy="26.48086"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-1"
+       cx="220.4962"
+       cy="112.32281"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-3-9"
+       cx="232.38928"
+       cy="54.689194"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#f9f9f9;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-56-4"
+       cx="189.6411"
+       cy="114.82977"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-2-7"
+       cx="237.01146"
+       cy="77.29705"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:url(#linearGradient13312);fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-1-8"
+       cx="206.6664"
+       cy="48.133423"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-70-4"
+       cx="204.22908"
+       cy="91.494034"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-3-5"
+       cx="243.36026"
+       cy="99.564934"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-60-0"
+       cx="211.91193"
+       cy="69.991501"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-62-3"
+       cx="174.57439"
+       cy="87.880531"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.745098"
+       id="path20498-6-3-6-3-3-1-8-6"
+       cx="185.11626"
+       cy="62.351704"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-1-6"
+       cx="366.87866"
+       cy="112.68902"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-3-9-5"
+       cx="378.77176"
+       cy="55.055401"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-56-4-6"
+       cx="336.02356"
+       cy="115.19598"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-2-7-9"
+       cx="383.39392"
+       cy="77.663261"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-1-8-3"
+       cx="353.04886"
+       cy="48.49963"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#808080;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-70-4-7"
+       cx="350.61154"
+       cy="91.860245"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-6-3-5-4"
+       cx="389.74274"
+       cy="99.931152"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-60-0-5"
+       cx="358.2944"
+       cy="70.357712"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path20498-6-3-6-3-62-3-2"
+       cx="320.95685"
+       cy="88.246742"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke:#c87137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.745098"
+       id="path20498-6-3-6-3-3-1-8-6-5"
+       cx="331.49872"
+       cy="62.717907"
+       r="7.0588245"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g33814"
+       transform="translate(0.7754,4.8245544)"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004"
+         width="7.7758708"
+         height="7.7758698"
+         x="171.14198"
+         y="148.55887" />
+      <rect
+         style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-7"
+         width="7.7758708"
+         height="7.7758698"
+         x="178.91785"
+         y="148.55887" />
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43"
+         width="7.7758708"
+         height="7.7758698"
+         x="186.69371"
+         y="148.55887" />
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43-0"
+         width="7.7758708"
+         height="7.7758698"
+         x="194.46957"
+         y="148.55887" />
+      <rect
+         style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43-7"
+         width="7.7758708"
+         height="7.7758698"
+         x="202.24544"
+         y="148.55887" />
+      <rect
+         style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43-8"
+         width="7.7758708"
+         height="7.7758698"
+         x="210.0213"
+         y="148.55887" />
+      <rect
+         style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43-6"
+         width="7.7758708"
+         height="7.7758698"
+         x="217.79716"
+         y="148.55887" />
+      <rect
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43-88"
+         width="7.7758708"
+         height="7.7758698"
+         x="225.57303"
+         y="148.55887" />
+      <rect
+         style="fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43-4"
+         width="7.7758708"
+         height="7.7758698"
+         x="233.34889"
+         y="148.55887" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22004-4-43-3"
+         width="7.7758708"
+         height="7.7758698"
+         x="241.12476"
+         y="148.55887" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,19.317719,-30.414974)"
+       id="text27420"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect27422);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="634.24805"
+         y="679.50391"
+         id="tspan43829"><tspan
+           style="font-weight:bold"
+           id="tspan43827">fitness scale</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,8.2431275,-18.031115)"
+       id="text36004"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36006);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="614.01367"
+         y="700.89453"
+         id="tspan43831">0</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,83.864192,-18.028014)"
+       id="text36004-4"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36006-1);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="614.01367"
+         y="700.89453"
+         id="tspan43833">1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,43.144545,-18.031115)"
+       id="text36004-2"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36006-9);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="614.01367"
+         y="700.89453"
+         id="tspan43835">0.5
+</tspan></text>
+  </g>
+</svg>

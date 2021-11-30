@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simulation module &#8212; Tumor evolution modeling pre-0.1_rc documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/nature.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="tissue module" href="tissue.html" />
+    <link rel="prev" title="main module" href="main.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="tissue.html" title="tissue module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="main.html" title="main module"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Tumor evolution modeling pre-0.1_rc documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" accesskey="U">src</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">simulation module</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-simulation">
+<span id="simulation-module"></span><h1>simulation module<a class="headerlink" href="#module-simulation" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="simulation.run">
+<span class="sig-prename descclassname"><span class="pre">simulation.</span></span><span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nb_runs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">N</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prop_cancer</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">omega</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alpha</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">T</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">treatment</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nb_treatments</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weighted_reproduction</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weighted_apoptosis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">init_clones</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulation.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch all the parameters given by the user and performs a simulation according to the type of model the user wants.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>nb_runs</strong> (<em>int</em>) – Number of iterations of the simulation</p></li>
+<li><p><strong>N</strong> (<em>int</em>) – Number of cells within the tissue</p></li>
+<li><p><strong>prop_cancer</strong> (<em>double</em>) – initial percentage of cancerous cell in the population</p></li>
+<li><p><strong>omega</strong> (<em>double</em>) – percentage of cancerous cells in the whole population at which the tumor can be detected</p></li>
+<li><p><strong>alpha</strong> (<em>double</em>) – treatment factor between 0 and 1 that decreases at each iteration the fitness of a cancerous cell that receives the treatment</p></li>
+<li><p><strong>T</strong> (<em>int</em>) – max number of generation_time (refer to the :class: <cite>tissue.Tissue</cite>) for a cell receiving the treatment</p></li>
+<li><p><strong>treatment</strong> (<em>boolean</em>) – if the user wants to apply a treatment during the simulation</p></li>
+<li><p><strong>nb_treatment</strong> (<em>int</em>) – as a treatment is specific to a clone type, we can apply consecutive treatment, i.e., cure multiple clone types at once.</p></li>
+<li><p><strong>verbose</strong> (<em>boolean</em>) – print the status of the simulation</p></li>
+<li><p><strong>weighted_reproduction</strong> (<em>boolean</em>) – use the cell fitness to weight the cell division process</p></li>
+<li><p><strong>weighted_apoptosis</strong> (<em>boolean</em>) – use the cell fitness to weight the cell apoptosis process</p></li>
+<li><p><strong>init_clones</strong> (<em>int</em>) – number of initial clone type we put at the beginning of the simulation</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="main.html"
+                        title="previous chapter">main module</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="tissue.html"
+                        title="next chapter">tissue module</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/simulation.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="tissue.html" title="tissue module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="main.html" title="main module"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Tumor evolution modeling pre-0.1_rc documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" >src</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">simulation module</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Nicolas Mendiboure.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.1.
+    </div>
+  </body>
+</html>

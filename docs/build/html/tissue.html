@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tissue module &#8212; Tumor evolution modeling pre-0.1_rc documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/nature.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="simulation module" href="simulation.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="simulation.html" title="simulation module"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Tumor evolution modeling pre-0.1_rc documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" accesskey="U">src</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tissue module</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tissue">
+<span id="tissue-module"></span><h1>tissue module<a class="headerlink" href="#module-tissue" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="tissue.Tissue">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tissue.</span></span><span class="sig-name descname"><span class="pre">Tissue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">omega</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alpha</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">generation_time</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tissue.Tissue" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Conceptual class that represents tissue where cells are.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>omega</strong> (<em>double</em>) – percentage of cancerous cells in the whole population at which the tumor can be detected</p></li>
+<li><p><strong>alpha</strong> (<em>double</em>) – treatment factor between 0 and 1 that decreases at each iteration the fitness of a cancerous cell that receives the treatment</p></li>
+<li><p><strong>generation_time</strong> (<em>int</em>) – number of iterations the treatment is effective on a cancerous cell</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="tissue.Tissue.get_apoptose">
+<span class="sig-name descname"><span class="pre">get_apoptose</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">weighted</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tissue.Tissue.get_apoptose" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tissue.Tissue.initial_population">
+<span class="sig-name descname"><span class="pre">initial_population</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">N</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prop_cancer</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.01</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">init_clones</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tissue.Tissue.initial_population" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor method</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tissue.Tissue.reproduce">
+<span class="sig-name descname"><span class="pre">reproduce</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">weighted</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tissue.Tissue.reproduce" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tissue.Tissue.stats">
+<span class="sig-name descname"><span class="pre">stats</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tissue.Tissue.stats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute some statistics about the cell population.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>a tuple with statistics for each time step : total number of cells (remains constant btw), number of cancerous cells, number of clone types, and average fitness</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tissue.Tissue.targeted_treatment">
+<span class="sig-name descname"><span class="pre">targeted_treatment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tissue.Tissue.targeted_treatment" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="simulation.html"
+                        title="previous chapter">simulation module</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/tissue.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="simulation.html" title="simulation module"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Tumor evolution modeling pre-0.1_rc documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" >src</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tissue module</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Nicolas Mendiboure.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.1.
+    </div>
+  </body>
+</html>

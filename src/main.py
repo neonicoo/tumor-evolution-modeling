@@ -12,13 +12,6 @@ import simulation
 random.seed(time.time())
 
 N_runs = 10000
-nb_init_clones = 3
-clones_init = {0: {"fitness" : 1,"mu": 0.001, "freq" : 0}}
-
-for i in range(1,nb_init_clones+1):
-    clones_init[i] = clones_init.get(i, {"fitness" :round(random.uniform(0,2), 3), 
-                                         "mu": round(random.uniform(0, 0.02), 4), 
-                                        "freq" : 0})
 
 #Without treatment :
 simulation1 = simulation.run(nb_runs=N_runs, 

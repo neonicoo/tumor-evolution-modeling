@@ -25,7 +25,8 @@ def run (nb_runs=10000,
          init_clones = 3):
 
 
-    """Fetch all the parameters given by the user and performs a simulation according to the type of model the user wants
+    """Fetch all the parameters given by the user and performs a simulation according to the type of model the user wants.
+    
     :param nb_runs: Number of iterations of the simulation 
     :type nb_runs: int
     :param N: Number of cells within the tissue
@@ -95,5 +96,4 @@ def run (nb_runs=10000,
     return (df)
 
 if __name__ == "__main__" :
-	
 	print("simulation")

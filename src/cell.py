@@ -8,6 +8,7 @@ import copy
 class Cell (object) :
 
     """This is a conceptual class that represent cell individual.
+
     :param state: Indicate the medical state of the cell; "NORMAL" or "CANCEROUS", defaults to "NORMAL"
     :type state: str
     :param clone: The type of clone the cell belongs to, defaults to 0
@@ -19,6 +20,8 @@ class Cell (object) :
     """
    
     next_ID = 0
+    """Parameter that counts the number of cells and which is used to set the ID for the next created cell.
+    """
     
     def __init__(self, state = "NORMAL", clone = 0, fitness = 1, mutation_rate = 0.001):
 
@@ -40,7 +43,8 @@ class Cell (object) :
         return "Cell #{0} of state : {1} and clone type {2}, with a fitness of {3}".format(self.ID, self.state, self.clone, self.fitness)
     
     def mutate (self, new_clone_id):
-        """Mutate a selected cell to another type of clone, with new fitness and mutation_rate drawn at random
+        """Mutate a selected cell to another type of clone, with new fitness and mutation_rate drawn at random.
+        
         :param new_clone_id: New type of clone the mutated cell will belong to
         :type new_clone_id: int, optional 
         """

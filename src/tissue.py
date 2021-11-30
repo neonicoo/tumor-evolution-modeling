@@ -10,6 +10,7 @@ import cell
 class Tissue ( object ) :
 
     """ Conceptual class that represents tissue where cells are.
+
     :param omega: percentage of cancerous cells in the whole population at which the tumor can be detected 
     :type omega: double
     :param alpha: treatment factor between 0 and 1 that decreases at each iteration the fitness of a cancerous cell that receives the treatment
@@ -55,7 +56,8 @@ class Tissue ( object ) :
             self.clones_pop[clone]["freq"] += 1 
             
     def stats(self):
-        """
+        """Compute some statistics about the cell population.
+
         :return: a tuple with statistics for each time step : total number of cells (remains constant btw), number of cancerous cells, number of clone types, and average fitness
         :rtype: tuple 
         """

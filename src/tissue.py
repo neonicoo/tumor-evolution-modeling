@@ -9,18 +9,23 @@ import cell
 
 class Tissue ( object ) :
     
-    def __init__(self, omega, alpha, generation_time, clones_init):
+    def __init__(self, omega, alpha, generation_time):
         self.generation_time = generation_time
         self.omega = omega
         self.alpha = alpha
         self.cancer_detection = False
         self.current_cure = None
         self.pop = []
-        self.clones_pop = copy.deepcopy(clones_init)    
+        self.clones_pop = {0: {"fitness" : 1,"mu": 0.001, "freq" : 0}}    
     
-    def initial_population(self, N = 1000, prop_cancer = 0.01):
+    def initial_population(self, N = 1000, prop_cancer = 0.01, init_clones=3):
         
         nb_cancer_cells = round(prop_cancer *N)
+        
+        for i in range(1,init_clones+1):
+            self.clones_pop[i] = self.clones_pop.get(i, {"fitness" :round(random.uniform(0,2), 3), 
+                                                 "mu": round(random.uniform(0, 0.05), 4), 
+                                                "freq" : 0})
         
         for i in range(N):
             if (i < nb_cancer_cells) :

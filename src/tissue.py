@@ -8,6 +8,15 @@ import copy
 import cell
 
 class Tissue ( object ) :
+
+    """ Conceptual class that represents tissue where cells are.
+    :param omega: percentage of cancerous cells in the whole population at which the tumor can be detected 
+    :type omega: double
+    :param alpha: treatment factor between 0 and 1 that decreases at each iteration the fitness of a cancerous cell that receives the treatment
+    :type alpha: double
+    :param generation_time: number of iterations the treatment is effective on a cancerous cell
+    :type generation_time: int
+    """
     
     def __init__(self, omega, alpha, generation_time):
         self.generation_time = generation_time
@@ -19,6 +28,8 @@ class Tissue ( object ) :
         self.clones_pop = {0: {"fitness" : 1,"mu": 0.001, "freq" : 0}}    
     
     def initial_population(self, N = 1000, prop_cancer = 0.01, init_clones=3):
+        """Constructor method
+        """
         
         nb_cancer_cells = round(prop_cancer *N)
         
@@ -44,6 +55,10 @@ class Tissue ( object ) :
             self.clones_pop[clone]["freq"] += 1 
             
     def stats(self):
+        """
+        :return: a tuple with statistics for each time step : total number of cells (remains constant btw), number of cancerous cells, number of clone types, and average fitness
+        :rtype: tuple 
+        """
         nb_cells = len(self.pop)
         nb_normal_cells = self.clones_pop[0]["freq"]
         nb_cancer_cells = nb_cells - nb_normal_cells

@@ -37,7 +37,7 @@ class Cell (object) :
         """Constructor string method
         """
 
-        return "Cell #{0} of state : {1} and clone type {2}".format(self.ID, self.state, self.clone)
+        return "Cell #{0} of state : {1} and clone type {2}, with a fitness of {3}".format(self.ID, self.state, self.clone, self.fitness)
     
     def mutate (self, new_clone_id):
         """Mutate a selected cell to another type of clone, with new fitness and mutation_rate drawn at random
@@ -58,5 +58,9 @@ class Cell (object) :
         self.treatment_duration += 1
 
 if __name__ == "__main__" :
-	
-	print("cell")
+    cell1 = Cell()
+    cell2 = Cell(fitness=0.52)
+    cell3 = Cell(state="CANCEROUS", clone=1)
+    print(cell1)
+    print(cell2)
+    print(cell3)

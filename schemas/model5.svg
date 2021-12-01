@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.36413105"
-     inkscape:cx="796.41656"
-     inkscape:cy="491.58126"
+     inkscape:zoom="1.4565242"
+     inkscape:cx="834.1777"
+     inkscape:cy="586.32737"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
      inkscape:window-x="0"
@@ -382,27 +382,27 @@
        inkscape:export-ydpi="400"><tspan
          x="645.11719"
          y="733.11722"
-         id="tspan11878"><tspan
+         id="tspan1163"><tspan
            style="font-weight:bold"
-           id="tspan11876">Simulation #1
+           id="tspan1161">Simulation #1
 </tspan></tspan><tspan
          x="645.11719"
          y="756.45059"
-         id="tspan11882"><tspan
+         id="tspan1167"><tspan
            style="font-weight:bold"
-           id="tspan11880">Total cells : 10
+           id="tspan1165">Total cells : 10
 </tspan></tspan><tspan
          x="645.11719"
          y="779.78397"
-         id="tspan11886"><tspan
+         id="tspan1171"><tspan
            style="font-weight:bold"
-           id="tspan11884">Tumor cells : 3
+           id="tspan1169">Tumor cells : 3
 </tspan></tspan><tspan
          x="645.11719"
          y="803.11734"
-         id="tspan11890"><tspan
+         id="tspan1175"><tspan
            style="font-weight:bold"
-           id="tspan11888">Tumor clones : 2</tspan></tspan></text>
+           id="tspan1173">Tumor clones : 2</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-11.142461,-181.79506)"
@@ -413,27 +413,27 @@
        inkscape:export-ydpi="400"><tspan
          x="645.11719"
          y="733.11722"
-         id="tspan11894"><tspan
+         id="tspan1179"><tspan
            style="font-weight:bold"
-           id="tspan11892">Simulation #2
+           id="tspan1177">Simulation #2
 </tspan></tspan><tspan
          x="645.11719"
          y="756.45059"
-         id="tspan11898"><tspan
+         id="tspan1183"><tspan
            style="font-weight:bold"
-           id="tspan11896">Total cells : 10
+           id="tspan1181">Total cells : 10
 </tspan></tspan><tspan
          x="645.11719"
          y="779.78397"
-         id="tspan11902"><tspan
+         id="tspan1187"><tspan
            style="font-weight:bold"
-           id="tspan11900">Tumor cells : 4
+           id="tspan1185">Tumor cells : 4
 </tspan></tspan><tspan
          x="645.11719"
          y="803.11734"
-         id="tspan11906"><tspan
+         id="tspan1191"><tspan
            style="font-weight:bold"
-           id="tspan11904">Tumor clones : 3</tspan></tspan></text>
+           id="tspan1189">Tumor clones : 3</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,134.95596,-181.79506)"
@@ -444,27 +444,27 @@
        inkscape:export-ydpi="400"><tspan
          x="645.11719"
          y="733.11722"
-         id="tspan11910"><tspan
+         id="tspan1195"><tspan
            style="font-weight:bold"
-           id="tspan11908">Simulation #100
+           id="tspan1193">Simulation #100
 </tspan></tspan><tspan
          x="645.11719"
          y="756.45059"
-         id="tspan11914"><tspan
+         id="tspan1199"><tspan
            style="font-weight:bold"
-           id="tspan11912">Total cells : 10
+           id="tspan1197">Total cells : 10
 </tspan></tspan><tspan
          x="645.11719"
          y="779.78397"
-         id="tspan11918"><tspan
+         id="tspan1203"><tspan
            style="font-weight:bold"
-           id="tspan11916">Tumor cells : 3
+           id="tspan1201">Tumor cells : 3
 </tspan></tspan><tspan
          x="645.11719"
          y="803.11734"
-         id="tspan11922"><tspan
+         id="tspan1207"><tspan
            style="font-weight:bold"
-           id="tspan11920">Tumor clones : 2</tspan></tspan></text>
+           id="tspan1205">Tumor clones : 2</tspan></tspan></text>
     <circle
        style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path20498-6-3-6-3"
@@ -714,9 +714,9 @@
        inkscape:export-ydpi="400"><tspan
          x="634.24805"
          y="679.50391"
-         id="tspan11926"><tspan
+         id="tspan1211"><tspan
            style="font-weight:bold"
-           id="tspan11924">fitness scale</tspan></tspan></text>
+           id="tspan1209">fitness scale</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-35.148556,-19.089449)"
@@ -727,7 +727,7 @@
        inkscape:export-ydpi="400"><tspan
          x="614.01367"
          y="700.89453"
-         id="tspan11928">0</tspan></text>
+         id="tspan1213">0</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,40.472498,-19.086348)"
@@ -738,7 +738,7 @@
        inkscape:export-ydpi="400"><tspan
          x="614.01367"
          y="700.89453"
-         id="tspan11930">1</tspan></text>
+         id="tspan1215">1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-0.24714291,-19.089449)"
@@ -749,7 +749,7 @@
        inkscape:export-ydpi="400"><tspan
          x="614.01367"
          y="700.89453"
-         id="tspan11932">0.5
+         id="tspan1217">0.5
 </tspan></text>
     <circle
        style="fill:#999999;fill-opacity:1;stroke:#ff7137;stroke-width:0.882351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -772,7 +772,7 @@
        ry="7.0588245" />
     <g
        id="g151885"
-       transform="translate(-46.037523)"
+       transform="matrix(0.6,0,0,0.6,67.14426,62.197034)"
        inkscape:export-filename="/home/nicolas/Documents/INSA/5BiM/Réseaux bio/Mini-project/tumor-evolution-modeling/model5.png"
        inkscape:export-xdpi="400"
        inkscape:export-ydpi="400">
@@ -825,9 +825,9 @@
        inkscape:export-ydpi="400"><tspan
          x="652.05078"
          y="765.36133"
-         id="tspan11936"><tspan
+         id="tspan1221"><tspan
            style="font-weight:bold"
-           id="tspan11934">Tumor clone types</tspan></tspan></text>
+           id="tspan1219">Tumor clone types</tspan></tspan></text>
     <image
        width="45"
        height="45"
@@ -951,8 +951,8 @@
        inkscape:export-ydpi="400"><tspan
          x="736.42578"
          y="607.23047"
-         id="tspan11940"><tspan
+         id="tspan1225"><tspan
            style="font-weight:bold;font-size:24px"
-           id="tspan11938">Normal cells</tspan></tspan></text>
+           id="tspan1223">Normal cells</tspan></tspan></text>
   </g>
 </svg>

@@ -1,5 +1,5 @@
 library(deSolve) # importation de la librarie diferential equation Solve 
-library(phaseR)
+#library(phaseR)
 
 rm(list = ls()) # Ré-initialisation de toutes les variables
 

@@ -53,7 +53,7 @@ class Cell (object) :
             
         self.clone = new_clone_id
         self.fitness = round(random.uniform(0,2), 3)
-        self.mutation_rate = round(random.uniform(0, 0.02), 4)
+        self.mutation_rate = round(random.uniform(0, 0.05), 4)
         
     def treatment (self, alpha):
         self.get_cure == True

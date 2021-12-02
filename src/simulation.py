@@ -7,8 +7,6 @@ import time
 import cell
 import tissue
 
-default_clone_init = {0: {"fitness" : 1,"mu": 0.001, "freq" : 0}}
-
 def run (nb_runs=10000, 
          N=1000, 
          prop_cancer=0.1, 

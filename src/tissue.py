@@ -33,7 +33,7 @@ class Tissue ( object ) :
         nb_cancer_cells = round(prop_cancer *N)
         
         for i in range(1,init_clones+1):
-            self.clones_pop[i] = self.clones_pop.get(i, {"fitness" :round(random.uniform(0,2), 3), 
+            self.clones_pop[i] = self.clones_pop.get(i, {"fitness" :round(random.uniform(1,3), 3), 
                                                  "mu": round(random.uniform(0, 0.05), 4), 
                                                 "freq" : 0})
         

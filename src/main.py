@@ -42,27 +42,27 @@ if __name__ == "__main__" :
 
     #Without treatment :
     simulation1 = simulation.run(nb_runs=N_runs, 
-                      N=1000, 
+                      N=2000, 
                       prop_cancer= 0.1, 
                       treatment=False, 
                       verbose=True,
                       weighted_reproduction = True,
                       weighted_apoptosis = True,
-                      init_clones=10)
+                      init_clones=5)
 
 
     #With treatment :
     simulation2 = simulation.run(nb_runs=N_runs, 
-                       N=1000, 
+                       N=2000, 
                        prop_cancer=0.1, 
-                       omega=0.25, 
+                       omega=0.2, 
                        alpha=0.5, T=10, 
                        treatment=True, 
                        nb_treatments=2, 
                        verbose=True,
                        weighted_reproduction = True,
                        weighted_apoptosis = True,
-                       init_clones=10)
+                       init_clones=5)
 
 
     axs = make_plot(simulation1, simulation2, N_runs)

@@ -4,8 +4,6 @@ import numpy as np
 import pandas as pd
 import random
 import time
-import copy
-
 import cell
 import tissue
 

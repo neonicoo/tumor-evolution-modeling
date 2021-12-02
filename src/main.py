@@ -5,9 +5,34 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import random
 import time
-import copy
-
 import simulation
+
+def make_plot(df1, df2, runs, fig_size=(22,14)):
+    fig, axs = plt.subplots(2, 2, figsize=fig_size)
+
+    axs[0, 0].plot(range(runs), df1["Normal cells"].values, label = "normal cells")
+    axs[0, 0].plot(range(runs), df1["Tumor cells"].values, label = "cancerous cells")
+    axs[0, 0].set_title('Simultation without treatment')
+    axs[0, 0].legend()
+
+    axs[0, 1].plot(range(runs), df2["Normal cells"].values, label = "normal cells")
+    axs[0, 1].plot(range(runs), df2["Tumor cells"].values, label = "cancerous cells")
+    axs[0, 1].set_title('Simultation with treatment')
+    axs[0, 1].legend()
+
+    axs[1, 0].plot(range(runs), df1["Number of clones"], label = "number of clones without treatment", color="lightcoral")
+    axs[1, 0].plot(range(runs), df2["Number of clones"], label = "number of clones with treatment", color="forestgreen")
+    axs[1, 0].set_title('Number of clones')
+    axs[1, 0].legend()
+
+    axs[1, 1].plot(range(runs), df1["Average fitness"].values, label = "average fitness without treatment", color="lightcoral")
+    axs[1, 1].plot(range(runs), df2["Average fitness"].values, label = "average fitness with treatment", color="forestgreen")
+    axs[1, 1].set_title('average fitness')
+    axs[1, 1].legend()
+
+    plt.show()
+
+    return(axs)
 
 if __name__ == "__main__" :
 
@@ -17,7 +42,7 @@ if __name__ == "__main__" :
 
     #Without treatment :
     simulation1 = simulation.run(nb_runs=N_runs, 
-                      N=2000, 
+                      N=1000, 
                       prop_cancer= 0.1, 
                       treatment=False, 
                       verbose=True,
@@ -28,7 +53,7 @@ if __name__ == "__main__" :
 
     #With treatment :
     simulation2 = simulation.run(nb_runs=N_runs, 
-                       N=2000, 
+                       N=1000, 
                        prop_cancer=0.1, 
                        omega=0.25, 
                        alpha=0.5, T=10, 
@@ -40,3 +65,4 @@ if __name__ == "__main__" :
                        init_clones=10)
 
 
+    axs = make_plot(simulation1, simulation2, N_runs)

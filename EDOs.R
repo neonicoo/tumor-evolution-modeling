@@ -15,10 +15,10 @@ SCN <- function(t, x, parameters)
   
   S <- x[1] # susceptible cells
   C <- x[2] # cancerous cells
-  N <- x[3] # nutriment resources, dN = -v_S * S - v_T *T ; v_S = N * beta1 ; N/(N+K_N) * beta1 ; v_C = N * beta2
+  N <- x[3] # nutriment resources
   
-  dSdt <- -mu*S - gamma*S + beta1*(1-(N/(N+K)))*S #beta1 * (N/(N+K))
-  dCdt <- mu*S - delta*C + beta2*(1-(N/(N+K)))*C - tau*C
+  dSdt <- -mu*S - gamma*S + beta1*(N/(N+K))*S
+  dCdt <- mu*S - delta*C + beta2*(N/(N+K))*C - tau*C
   dNdt <- - beta1* (N/(N+K))*S - beta2*(N/(N+K))*C
     
   list(c(dSdt, dCdt, dNdt))
@@ -30,12 +30,11 @@ beta2 <- 0.002
 gamma <- 0.001
 delta <- 0.0015
 tau <- 0.0001
-K<- 10e4
+K<- 1e3/2
 
-S0 <- 1900
-C0 <- 100
-N0 <- 10e6
-
+S0 <- 2000
+C0 <- 200
+N0 <- 1e3
 
 param = c(mu, beta1, beta2, gamma, delta, tau, K)
 init = c(S0,C0,N0)
@@ -48,7 +47,10 @@ C = out[,"2"]
 N = out[,"3"]
 t = out[,"time"]
 
-par(mfrow=c(2,2))
-plot(t,S, type = "l")
-plot(t,C, type = "l")
-plot(t,N, type = "l")
+par(mfrow=c(1,1))
+plot(t,S, type = "l", las=1, col = "blue", ylim = c(0, S0))
+lines(t, C, type = "l", col="red")
+lines(t, N, type = "l", col="green")
+
+legend("topright", legend=c("S cells", "C cells", "nutrients"),
+       col=c("blue", "red", "green"), lty = 1)

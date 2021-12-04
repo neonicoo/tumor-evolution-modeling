@@ -12,10 +12,10 @@ Lotka.Volterra <- function(t, state, parameters)
   
 ### Lotka-volterra Model ##
 
-alpha <- 1
+alpha <- 1.1
 beta <- 0.2
 gamma <- 0.2
-delta <- 0.5
+delta <- 0.6
 
 params = c(alpha, beta, gamma, delta)
 

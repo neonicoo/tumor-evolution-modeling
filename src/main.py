@@ -7,17 +7,17 @@ import random
 import time
 import simulation
 
-def make_plot(df1, df2, runs, fig_size=(22,14)):
+def make_plot(df1, df2, runs, fig_size=(18,14)):
     fig, axs = plt.subplots(2, 2, figsize=fig_size)
 
     axs[0, 0].plot(range(runs), df1["Normal cells"].values, label = "normal cells")
     axs[0, 0].plot(range(runs), df1["Tumor cells"].values, label = "cancerous cells")
-    axs[0, 0].set_title('Simultation without treatment')
+    axs[0, 0].set_title('Simulation without treatment')
     axs[0, 0].legend()
 
     axs[0, 1].plot(range(runs), df2["Normal cells"].values, label = "normal cells")
     axs[0, 1].plot(range(runs), df2["Tumor cells"].values, label = "cancerous cells")
-    axs[0, 1].set_title('Simultation with treatment')
+    axs[0, 1].set_title('Simulation with treatment')
     axs[0, 1].legend()
 
     axs[1, 0].plot(range(runs), df1["Number of clones"], label = "number of clones without treatment", color="lightcoral")
@@ -32,7 +32,7 @@ def make_plot(df1, df2, runs, fig_size=(22,14)):
 
     plt.show()
 
-    return(axs)
+    return(fig, axs)
 
 if __name__ == "__main__" :
 
@@ -56,13 +56,14 @@ if __name__ == "__main__" :
                        N=2000, 
                        prop_cancer=0.1, 
                        omega=0.2, 
-                       alpha=0.5, T=10, 
+                       alpha=0.5, T=5, 
                        treatment=True, 
-                       nb_treatments=2, 
+                       nb_treatments=3, 
                        verbose=True,
                        weighted_reproduction = True,
                        weighted_apoptosis = True,
                        init_clones=5)
 
 
-    axs = make_plot(simulation1, simulation2, N_runs)
+    fig, axs = make_plot(simulation1, simulation2, N_runs)
+    fig.savefig("Figure.png", format = "png",  dpi = 500)

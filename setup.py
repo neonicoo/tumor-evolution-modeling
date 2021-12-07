@@ -16,7 +16,7 @@ setuptools.setup(
 	url="https://github.com/neonicoo/tumor-evolution-modeling",
 	classifiers=[
 		"Programming Language :: Python :: 3",
-		"Licence :: OSI Approved :: MIT License",
+		"License :: OSI Approved :: MIT License",
 		"Operating System :: OS Independent",
 	],
 	package_dir={'':'src'},

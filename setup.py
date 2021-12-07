@@ -21,7 +21,6 @@ setuptools.setup(
 	],
 	package_dir={'':'src'},
 	packages=['tumorevolution'],
-	#py_modules=["src/cell", "src/main", "src/tissue", "src/simulation"],
 	python_requires = ">=3.6",
 	install_requires = [
 		"numpy",
